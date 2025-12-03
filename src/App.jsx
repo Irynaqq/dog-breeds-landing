@@ -8,7 +8,6 @@ export default function App() {
   const [loadingBreeds, setLoadingBreeds] = useState(false);
   const [loadingImage, setLoadingImage] = useState(false);
 
-  // Load all breeds
   useEffect(() => {
     const fetchBreeds = async () => {
       setLoadingBreeds(true);
@@ -22,7 +21,6 @@ export default function App() {
     fetchBreeds();
   }, []);
 
-  // Load image when breed changes
   useEffect(() => {
     if (!selectedBreed) return;
 
@@ -150,7 +148,7 @@ export default function App() {
 
       {/* FOOTER */}
       <footer className="text-center py-8 text-slate-500 text-sm border-t border-slate-800">
-        DogWorld · Built with React + Tailwind CSS v4 · Powered by Dog API
+        DogWorld · Built with React + Tailwind CSS · Powered by Dog API
       </footer>
     </div>
   );
