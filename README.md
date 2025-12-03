@@ -1,16 +1,53 @@
-# React + Vite
+# 🐶 Dog Breeds Landing  
+Interactive landing page built with **React**, **Vite** and **Tailwind CSS v4**, powered by the public **Dog CEO API**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates:
+- modern Tailwind v4 zero-config setup  
+- integration with a public REST API  
+- responsive UI layout  
+- clean component structure  
+- deployment on GitHub Pages  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo  
+**Live page:**  
+https://Irynaqq.github.io/dog-breeds-landing  
 
-## React Compiler
+**GitHub repository:**  
+https://github.com/Irynaqq/dog-breeds-landing  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
+- **React 18**
+- **Vite**
+- **Tailwind CSS v4** (Content-Aware Engine)
+- **Axios**
+- **Dog CEO API**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Features
+- Browse all dog breeds from Dog CEO API  
+- View random images for any selected breed  
+- Responsive card layout for popular breeds  
+- Clean and modern UI built with Tailwind v4  
+- Fully responsive for mobile / tablet / desktop  
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/Irynaqq/dog-breeds-landing
+
+# Go inside the project
+cd dog-breeds-landing
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
